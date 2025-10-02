@@ -59,7 +59,7 @@ const About = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/public/instagram-1-svgrepo-com.svg"
+                src="/instagram-1-svgrepo-com.svg"
                 className="w-8 h-8"
               />
               <span className="text-blue-600 font-semibold"></span>

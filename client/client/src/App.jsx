@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route,RouterProvider  } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -113,11 +113,13 @@ function App() {
             </PrivateRoute>
           }
         />
+
       </Routes>
 
       <ToastContainer position="top-right" autoClose={4000} />
     </>
   );
 }
+
 
 export default App;
